@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -8,7 +9,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative bg-[#f5efe7] py-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="text-5xl md:text-6xl font-playfair text-[#1a2942] mb-6">About L'Appar Kompan</h1>
+          <h1 className="text-5xl md:text-6xl font-playfair text-[#1a2942] mb-6">About Tolani.Shop</h1>
           <p className="text-xl text-[#1a2942]/80 leading-relaxed">
             Crafting elegant Nigerian fashion that celebrates heritage while embracing modernity
           </p>
@@ -23,11 +24,11 @@ export default function AboutPage() {
               <h2 className="text-4xl font-playfair text-[#1a2942] mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Founded in Lagos, Nigeria, L'Appar Kompan began as a vision to create timeless fashion that honors our
+                  Founded in Lagos, Nigeria, Tolani.Shop began as a vision to create timeless fashion that honors our
                   rich cultural heritage while meeting the needs of the modern Nigerian woman and man.
                 </p>
                 <p>
-                  Our founder, Tolan Helen, recognized a gap in the market for high-quality, locally-made fashion that
+                  Our founder, Tolani Hellen, recognized a gap in the market for high-quality, locally-made fashion that
                   could compete on the global stage. With a background in fashion design and a passion for Nigerian
                   craftsmanship, she set out to create a brand that would make every Nigerian proud to wear.
                 </p>
@@ -42,7 +43,7 @@ export default function AboutPage() {
               <div className="aspect-[4/5] relative overflow-hidden rounded-lg">
                 <Image
                   src="/placeholder.svg?height=600&width=480"
-                  alt="Tolan Helen, Founder"
+                  alt="Tolani Hellen, Founder"
                   fill
                   className="object-cover"
                 />
@@ -102,9 +103,9 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="aspect-square relative overflow-hidden rounded-lg mb-4">
-                <Image src="/placeholder.svg?height=300&width=300" alt="Tolan Helen" fill className="object-cover" />
+                <Image src="/placeholder.svg?height=300&width=300" alt="Tolani Hellen" fill className="object-cover" />
               </div>
-              <h3 className="text-xl font-medium text-[#1a2942]">Tolan Helen</h3>
+              <h3 className="text-xl font-medium text-[#1a2942]">Tolani Hellen</h3>
               <p className="text-[#d5a293] mb-2">Founder & Creative Director</p>
               <p className="text-sm text-gray-600">
                 Fashion design graduate with 10+ years experience in luxury fashion.

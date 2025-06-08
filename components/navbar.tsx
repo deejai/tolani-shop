@@ -63,7 +63,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center space-x-2">
             <div className="flex flex-col items-center">
               <span className="font-playfair text-xl md:text-2xl italic text-[#1a2942]">L&apos;Appar Kompan</span>
-              <span className="text-xs uppercase tracking-widest text-[#1a2942]/70">TOLAN HELEN</span>
+              <span className="text-xs uppercase tracking-widest text-[#1a2942]/70">Tolani Hellen</span>
             </div>
           </Link>
         </div>

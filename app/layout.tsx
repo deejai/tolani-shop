@@ -18,7 +18,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "L'Appar Kompan | Elegant Nigerian Fashion",
+  title: "Tolani.Shop | Elegant Nigerian Fashion",
   description: "Discover elegant apparel and accessories with nationwide delivery across Nigeria",
     generator: 'v0.dev'
 }
